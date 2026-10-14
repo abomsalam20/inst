@@ -287,7 +287,7 @@ export default function App() {
           <div className="grid gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
             <div className="reveal in">
               <div className="inline-flex items-center gap-2 rounded-full border border-amber-200/20 bg-amber-200/10 px-3 py-1.5 text-[11px] font-bold text-amber-200">
-                <Star className="h-3.5 w-3.5 fill-amber-200" /> معتمد من وزارة التعليم العالي • قرار رقم 1088
+                <Star className="h-3.5 w-3.5 fill-amber-200" />معتمد من وزارة التعليم العالي • قرار رقم ****
               </div>
               <h1 className="mt-5 text-[32px] font-black leading-[1.1] text-white md:text-[52px] lg:text-[58px]">
                 نُخرّج جيلاً هندسياً<br />
@@ -630,7 +630,7 @@ export default function App() {
               <p className="mt-3 text-[13px] leading-7 text-white/70">نؤمن أن تجربة الطالب الإدارية يجب أن تكون بنفس جودة تجربته الأكاديمية. فريق شئون الطلاب لدينا جاهز لتلقي جميع الشكاوى والمقترحات والاستفسارات، مع نظام تتبع إلكتروني ورد خلال 24 ساعة عمل.</p>
               <div className="mt-6 space-y-3 text-[12px]">
                 <div className="flex items-center gap-2 rounded-xl bg-white/10 p-3"><Clock className="h-4 w-4 text-amber-200" /> مواعيد العمل: السبت - الخميس 9ص - 3م</div>
-                <div className="flex items-center gap-2 rounded-xl bg-white/10 p-3"><Phone className="h-4 w-4 text-amber-200" /> خط ساخن: 19247 - تحويلة شئون الطلاب</div>
+                <div className="flex items-center gap-2 rounded-xl bg-white/10 p-3"><Phone className="h-4 w-4 text-amber-200" /> خط ساخن: 0123456789 - تحويلة شئون الطلاب</div>
                 <div className="flex items-center gap-2 rounded-xl bg-white/10 p-3"><Mail className="h-4 w-4 text-amber-200" /> students@hiess.edu.eg</div>
               </div>
             </div>
@@ -696,8 +696,8 @@ export default function App() {
             <div>
               <div className="text-[13px] font-bold">تواصل معنا</div>
               <div className="mt-3 space-y-2 text-[12px] text-white/60">
-                <div className="flex gap-2"><MapPin className="h-4 w-4 text-amber-200" /> القاهرة الجديدة، التجمع الخامس، بجوار أكاديمية الشرطة</div>
-                <div className="flex gap-2"><Phone className="h-4 w-4 text-amber-200" /> 19247 • 02-26140000</div>
+                <div className="flex gap-2"><MapPin className="h-4 w-4 text-amber-200" /> القاهرة الجديدة، التجمع الخامس،   </div>
+                <div className="flex gap-2"><Phone className="h-4 w-4 text-amber-200" /> 0123456789 • 0123456</div>
                 <div className="flex gap-2"><Mail className="h-4 w-4 text-amber-200" /> info@hiess.edu.eg</div>
                 <div className="flex gap-2"><Clock className="h-4 w-4 text-amber-200" /> السبت - الخميس 8ص - 4م</div>
               </div>
