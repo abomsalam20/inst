@@ -15,9 +15,11 @@
 الموقع سيعمل فوراً لأنه ملف واحد يحتوي كل شيء (CSS + JS).
 
 طريقة الرفع الكاملة (للمطورين):
-1. npm install
-2. npm run build
-3. ارفع محتويات مجلد dist إلى public_html
+$git clone https://github.com/abomsalam20/inst.git
+$cd inst
+$ npm install
+$ npm run build
+ ارفع محتويات مجلد dist إلى public_html
 
 المميزات المضمنة:
      - رؤية المعهد وتطلعاته
